@@ -14,8 +14,6 @@
             "Pantech\\Retailak\\": "packages/pantech/retailak/src/"
         },
         "classmap": [
-            "database/seeds",
-            "database/factories"
         ]
     },
     "require": {
@@ -44,9 +42,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Pantech\\RetailakFashion\\PamRetailakServiceProvider"
+                "Pantech\\Retailak\\PamRetailakServiceProvider"
             ]
-
         }
     }
 }
